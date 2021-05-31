@@ -351,7 +351,7 @@ __webpack_require__.r(__webpack_exports__);
 class WebRequestService {
     constructor(http) {
         this.http = http;
-        this.ROOT_URL = 'http://task-manager-stack.herokuapp.com';
+        this.ROOT_URL = 'https://task-manager-stack.herokuapp.com';
     }
     get(uri) {
         return this.http.get(`${this.ROOT_URL}/${uri}`);
